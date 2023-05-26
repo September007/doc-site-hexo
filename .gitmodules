@@ -1,3 +1,6 @@
 [submodule "doc"]
 	path = source/_posts/doc
 	url = git@github.com:September007/doc.git
+[submodule "themes/next"]
+	path = themes/next
+	url = https://github.com/next-theme/hexo-theme-next

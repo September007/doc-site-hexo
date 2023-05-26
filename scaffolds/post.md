@@ -5,5 +5,5 @@ category:
 date: {{ date }}
 draft: true
 tags:
-typora-root-url: {{ title }}
+url-root: {{title}}
 ---

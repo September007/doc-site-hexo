@@ -5,8 +5,10 @@ hexo.extend.filter.register('before_generate', function () {
     let newi = 0
     let len = posts.data.length
     for (let i = 0; i < len; ++i)
-        if (posts.data[i].draft == false && posts.data[i].title != undefined)
+        if (posts.data[i].draft == false && posts.data[i].title != undefined) {
             posts.data[newi++] = posts.data[i]
+            console.log('add draft: ', posts.data[i].source)
+        }
         else
             console.log('moving draft: ', posts.data[i].source)
     posts.data.length = newi + 1;

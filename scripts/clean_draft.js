@@ -7,10 +7,10 @@ hexo.extend.filter.register('before_generate', function () {
     for (let i = 0; i < len; ++i)
         if (posts.data[i].draft == false && posts.data[i].title != undefined) {
             posts.data[newi++] = posts.data[i]
-            console.log('add draft: ', posts.data[i].source)
+            console.log('add post: ', posts.data[i].source)
         }
         else
-            console.log('moving draft: ', posts.data[i].source)
+            console.log('rm post: ', posts.data[i].source)
     posts.data.length = newi + 1;
     posts.length = posts.data.length
     hexo.locals.set("posts", posts)

@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: lullaby
+title: cheerlisten
 subtitle: ''
 description: "lull's docs"
 keywords:
-author: lullaby
-language: en
+author: cheerlisten
+language: zh-CN
 timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://www.cheerlisten.online:443/
-permalink: blogs/:title/
+url: https://www.cheerlisten.com/blogs
+permalink: :title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -100,6 +100,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
+# theme: volantis
 theme: stellar
 
 # Deployment

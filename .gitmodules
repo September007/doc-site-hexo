@@ -7,3 +7,6 @@
 [submodule "themes/stellar"]
 	path = themes/stellar
 	url = https://github.com/xaoxuu/hexo-theme-stellar.git
+[submodule "themes/next"]
+	path = themes/next
+	url = https://github.com/theme-next/hexo-theme-next.git
